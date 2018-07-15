@@ -13,7 +13,7 @@
 <body>
     <!-- NAV BAR -->
     <div class="ui secondary menu" id="menu" style="height:100px; margin: 0px;">
-            <a class="active item" id="menu-item" style="margin-left: 30px">
+            <a class="active item" id="menu-item" style="margin-left: 30px" href="home.html">
               Home
             </a>
             <a class="item" id="menu-item">
@@ -72,7 +72,7 @@
                                                    
                                                          
                
-                                                    <button class="ui button" type="submit" style="font-size: 20px">Submit</button>
+                                                    <button class="ui success button" type="submit" style="font-size: 20px">Submit</button>
                                                   </form>
                                     </div>
                                     <div style="margin-top: 60px">
@@ -82,14 +82,15 @@
                                     <form method="post" enctype="multipart/form-data">
                                        <!-- <% csrf_token %>-->
                                         <input type="file" name="myfile">
-                                        <button type="submit">Upload</button>
+                                        <br>
+                                        <button class="ui  green button" style="margin-left: 480px; margin-top: 40px; height: 50px; font-size: 18px" >Confirm Submission</button>
                                       </form>
                                     
-                                    <!--<% if uploaded_file_url %>-->
+                                    <!--<% if uploaded_file_url %>
                                     <p>File uploaded at: <a href="{{ uploaded_file_url }}">{{ uploaded_file_url }}</a></p>
-                                    <!--<% endif %>-->
+                                    <% endif %>-->
             
-                                    <p><a href="home.html">Return to home</a></p>
+                                  
                                     <!--<% endblock %>-->
                                     </div>
                                 </div>
