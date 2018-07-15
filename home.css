@@ -3,7 +3,7 @@
 
 }
 #menu{
-    background-color:#1874c3;
+    background: linear-gradient(to right,#1874c3 ,#104b7f);
     color: #B8C3C8;
 }
 #menu-item{
@@ -19,13 +19,5 @@
 }
 #side-bar{
     margin-top: 100px;
-    color: #41BBAC;
-}
-
-.bg {
- background-color:whitesmoke;   
-}
-
-.whiter {
-    color: #FFFFFF;
+    color: rgb(186, 242, 250);
 }

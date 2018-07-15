@@ -6,12 +6,12 @@
     <title>home Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="home.css" />
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.css"/>   -->
-    <link rel="stylesheet" href="semantic/dist/semantic.min.css">
-   <!--  <script>
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.css"/>   -->
+   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.css"/>  -->
+   <script src="http://semantic-ui.com/dist/semantic.min.js"></script>
 
-    </script> -->
+    <link rel="stylesheet" href="semantic/dist/semantic.min.css">
+
 </head>
 <body class="bg" style="background-color: whitesmoke;">
 
@@ -31,12 +31,14 @@
                     <i class="search icon"></i>
                    </div>
             <div class="right menu" style="margin: 20px;  padding-top: 7px; padding-bottom: 7px; padding-right: 45px;">
-
+                <a href="create.html">
                     <button class="ui labeled icon green button right floated">
                             <i class="plus icon"></i>
+                            
                             Create DataSet
-                    </button>
-                   
+                            
+                   </button>
+                </a>   
                
 
                     <button class="ui active button" style="margin:5px">
@@ -139,12 +141,25 @@
 
               <div class="ui card fluid">
                     <div class="content">
-                        <div class="header">
-                            Set Name
-                        </div>
-                        <div class="meta">
-                            Category
-                        </div>
+                      <div class="container">
+                          <div class="header">
+                              Set Name
+                              <div class="ui huge star rating floated" style="float: right" data-rating="3" data-max-rating="5">
+                                  <script>
+      
+                                    $('.ui.rating')
+                                     .rating();
+                               </script>
+                                </div>
+                             
+                          </div>
+                          <div class="meta">
+                              Category
+               
+                          </div>
+
+                      </div>
+                      
                       </div>    
                         <div class="content">
                             <!-- <p>This is my content</p> -->
@@ -166,6 +181,10 @@
                                       <div class="extra">
                                         Additional Details
                                       </div>
+                                      <div class="extra">
+
+
+                                      </div>
                                     </div>
                                   </div>
                                 </div>
@@ -180,6 +199,13 @@
                             <div class="content">
                                 <div class="header">
                                     Set Name
+                                    <div class="ui huge star rating floated" style="float: right" data-rating="3" data-max-rating="5">
+                                        <script>
+            
+                                          $('.ui.rating')
+                                           .rating();
+                                     </script>
+                                      </div>
                                 </div>
                                 <div class="meta">
                                     Category
@@ -221,6 +247,13 @@
                                     <div class="content">
                                         <div class="header">
                                             Set Name
+                                            <div class="ui huge star rating floated" style="float: right" data-rating="3" data-max-rating="5">
+                                                <script>
+                    
+                                                  $('.ui.rating')
+                                                   .rating();
+                                             </script>
+                                              </div>
                                         </div>
                                         <div class="meta">
                                             Category
@@ -262,6 +295,13 @@
                                             <div class="content">
                                                 <div class="header">
                                                     Set Name
+                                                    <div class="ui huge star rating floated" style="float: right" data-rating="3" data-max-rating="5">
+                                                        <script>
+                            
+                                                          $('.ui.rating')
+                                                           .rating();
+                                                     </script>
+                                                      </div>
                                                 </div>
                                                 <div class="meta">
                                                     Category
@@ -303,6 +343,13 @@
                                                     <div class="content">
                                                         <div class="header">
                                                             Set Name
+                                                            <div class="ui huge star rating floated" style="float: right" data-rating="3" data-max-rating="5">
+                                                                <script>
+                                    
+                                                                  $('.ui.rating')
+                                                                   .rating();
+                                                             </script>
+                                                              </div>
                                                         </div>
                                                         <div class="meta">
                                                             Category
@@ -344,6 +391,13 @@
                                                             <div class="content">
                                                                 <div class="header">
                                                                     Set Name
+                                                                    <div class="ui huge star rating floated" style="float: right" data-rating="3" data-max-rating="5">
+                                                                        <script>
+                                            
+                                                                          $('.ui.rating')
+                                                                           .rating();
+                                                                     </script>
+                                                                      </div>
                                                                 </div>
                                                                 <div class="meta">
                                                                     Category
